@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+  <head>
+    <title>CV Rif'anna Fatkhuliya</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 40px;
+        background-color: lightcyan;
+      }
+
+      h1 {
+        margin-bottom: 5px;
+      }
+
+      h2 {
+        border-bottom: 1px solid black;
+        padding-bottom: 5px;
+        margin-top: 30px;
+        background-color: lightskyblue;
+      }
+
+      table {
+        width: 100%;
+      }
+
+      td {
+        vertical-align: top;
+        padding: 10px;
+      }
+
+      .foto {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 3px solid black;
+        object-fit: cover;
+      }
+
+      .kontak p {
+        margin: 3px 0;
+        background-color: rgb(170, 206, 241);
+      }
+
+      .icon {
+        width: 18px;
+        vertical-align: middle;
+        margin-right: 8px;
+      }
+
+      footer {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 14px;
+        background-color: rgb(172, 195, 206);
+      }
+
+      .dark {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <a href="#profil">Profil</a> | <a href="#pendidikan">Pendidikan</a> | <a href="#pengalaman">Pengalaman</a> | <a href="#kemampuan">Kemampuan</a> |
+      <a href="kontak.html">Kontak</a>
+    </nav>
+    <button onclick="tampilPesan()">Selamat Datang</button>
+    <button onclick="tampilkanTanggal()">Tanggal Hari Ini</button>
+    <button onclick="darkMode()">Dark Mode</button>
+
+    <p id="hasil"></p>
+    <p id="tanggal"></p>
+    <table>
+      <tr>
+        <td width="25%">
+          <img src="fotoku.jpeg" alt="Foto Profil" class="foto" />
+        </td>
+
+        <td width="75%">
+          <h1 id="nama">RIF'ANNA FATKHULIYA</h1>
+
+          <div class="kontak" id="kontak">
+            <p>
+              <img src="email.jpg" class="icon" />
+              rifannafatkhuliya@mail.ugm.ac.id
+            </p>
+
+            <p>
+              <img src="telp.jpg" class="icon" />
+              +6282324634853
+            </p>
+
+            <p>
+              <img src="alamat.png" class="icon" />
+              Bantul, Daerah Istimewa Yogyakarta
+            </p>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <h2 id="profil">Profil</h2>
+    <p>
+      Seorang mahasiswi semester 4 Program Studi Teknologi Survei dan Pemetaan Dasar Universitas Gadjah Mada. Memiliki kemampuan komunikasi lisan yang baik, public speaking, serta komunikasi interpersonal yang efektif. Berpengalaman dalam
+      kepanitiaan dan penyelenggaraan acara yang mengasah kemampuan koordinasi, kerja tim, dan kepemimpinan. Saat ini merupakan bagian dari Staff PSDM KMTSP dan ingin berkontribusi dalam kegiatan yang bermanfaat bagi diri sendiri maupun
+      orang lain.
+    </p>
+
+    <h2 id="pendidikan">Pendidikan</h2>
+    <p><b>D4 Teknologi Survei dan Pemetaan Dasar</b></p>
+    <p>Universitas Gadjah Mada | 2024 - Sekarang</p>
+
+    <p><b>SMAN 1 Bambanglipuro</b></p>
+    <p>2021 - 2024</p>
+
+    <h2 id="pengalaman">Pengalaman</h2>
+
+    <p><b>Kepala Divisi PSDM</b></p>
+    <p>KMTSP UGM | Periode 2026</p>
+    <ul>
+      <li>Mengkoordinasikan program kerja divisi Pengembangan Sumber Daya Mahasiswa.</li>
+      <li>Mengelola perencanaan dan pelaksanaan kegiatan pengembangan anggota.</li>
+      <li>Melakukan evaluasi kinerja dan peningkatan kapasitas anggota.</li>
+    </ul>
+
+    <p><b>Peserta Magang</b></p>
+    <p>KJSB Godean Yogyakarta | Desember 2025 - Januari 2026</p>
+    <ul>
+      <li>Mempelajari alur kerja profesional di bidang survei dan pemetaan.</li>
+      <li>Membantu pelaksanaan tugas teknis sesuai arahan pembimbing.</li>
+      <li>Mengembangkan keterampilan komunikasi dan kerja tim.</li>
+    </ul>
+
+    <p><b>Divisi Logistik Dies Natalis</b></p>
+    <p>IMGI (Ikatan Mahasiswa Geodesi Indonesia) | 2025</p>
+    <ul>
+      <li>Mengoordinasikan kebutuhan transportasi peserta dan panitia selama kegiatan berlangsung.</li>
+      <li>Mengelola penyediaan serta distribusi konsumsi bagi seluruh pihak yang terlibat.</li>
+      <li>Memastikan kelancaran operasional logistik agar kegiatan berjalan tertib dan terorganisir.</li>
+    </ul>
+
+    <p><b>Staff Co-Fasilitator</b></p>
+    <p>Pionir Permadani | April 2025 - Agustus 2025</p>
+    <ul>
+      <li>Membimbing dan mendampingi mahasiswa baru dalam kegiatan orientasi.</li>
+      <li>Memfasilitasi komunikasi serta menjaga kekompakan kelompok.</li>
+      <li>Bekerja sama dengan panitia dalam menyukseskan rangkaian acara.</li>
+    </ul>
+
+    <p><b>Divisi Sponsorship</b></p>
+    <p>BUF (Bamsayota University Fair) | 2025</p>
+    <ul>
+      <li>Menyusun proposal kerja sama dengan pihak eksternal.</li>
+      <li>Menjalin komunikasi dan negosiasi dengan calon sponsor.</li>
+      <li>Mendukung pendanaan kegiatan melalui kerja sama strategis.</li>
+    </ul>
+
+    <p><b>Dewan Ambalan</b></p>
+    <p>SMAN 1 Bambanglipuro | 2022 - 2023</p>
+    <ul>
+      <li>Menyusun paparan materi perkenalan kepramukaan.</li>
+      <li>Membuat LPJ kegiatan Anjangsana.</li>
+      <li>Menjadi divisi konsumsi saat Perkemahan Akhir Tahun.</li>
+      <li>Membantu pelaksanaan kegiatan rutin dan event.</li>
+      <li>Menjelaskan dan memaparkan materi di depan kelas.</li>
+    </ul>
+
+    <h2 id="kemampuan">Kemampuan</h2>
+    <ul>
+      <li>Komunikasi Efektif</li>
+      <li>Time Management</li>
+      <li>Adaptability</li>
+      <li>Problem Solving</li>
+      <li>Kerja Sama Tim</li>
+      <li>Manajerial</li>
+    </ul>
+
+    <footer>
+      <p>&copy; 2026 Website CV Rifanna</p>
+    </footer>
+
+    <script>
+      // Variabel
+      let nama = "RIF'ANNA FATKHULIYA";
+
+      // Fungsi menampilkan pesan
+      function tampilPesan() {
+        alert("Selamat datang di Website CV Rif'anna Fatkhuliya");
+      }
+
+      // Menampilkan tanggal hari ini
+      function tampilkanTanggal() {
+        let tanggal = new Date();
+        document.getElementById("tanggal").innerHTML = "Tanggal hari ini: " + tanggal;
+      }
+
+      // Dark Mode
+      function darkMode() {
+        document.body.classList.toggle("dark");
+      }
+    </script>
+  </body>
+</html>
