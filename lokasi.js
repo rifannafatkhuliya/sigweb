@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "lokasi",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "NAMA": "Kantor Bupati Bantul", "KATEGORI": "Pemerintahan", "LATITUDE": -7.8871, "LONGITUDE": 110.32741 }, "geometry": { "type": "Point", "coordinates": [ 110.32741, -7.8871 ] } },
+{ "type": "Feature", "properties": { "NAMA": "Dinas Kependudukan dan Pencatatan Sipil Kabupaten Bantul", "KATEGORI": "Kependudukan", "LATITUDE": -7.90455, "LONGITUDE": 110.34847 }, "geometry": { "type": "Point", "coordinates": [ 110.34847, -7.90455 ] } },
+{ "type": "Feature", "properties": { "NAMA": "Kantor Kalurahan Tirtomulyo", "KATEGORI": "Kalurahan", "LATITUDE": -7.97122, "LONGITUDE": 110.292 }, "geometry": { "type": "Point", "coordinates": [ 110.292, -7.97122 ] } },
+{ "type": "Feature", "properties": { "NAMA": "Kantor Kecamatan Kretek", "KATEGORI": "Kecamatan", "LATITUDE": -7.97207, "LONGITUDE": 110.31855 }, "geometry": { "type": "Point", "coordinates": [ 110.31855, -7.97207 ] } },
+{ "type": "Feature", "properties": { "NAMA": "Kantor Kalurahan Bangunjiwo", "KATEGORI": "Kalurahan", "LATITUDE": -7.83956, "LONGITUDE": 110.31349 }, "geometry": { "type": "Point", "coordinates": [ 110.31349, -7.83956 ] } },
+{ "type": "Feature", "properties": { "NAMA": "Kantor Kalurahan Sumbermulyo", "KATEGORI": "Kalurahan", "LATITUDE": -7.92771, "LONGITUDE": 110.3224 }, "geometry": { "type": "Point", "coordinates": [ 110.3224, -7.92771 ] } },
+{ "type": "Feature", "properties": { "NAMA": "Kantor Kecamatan Sewon", "KATEGORI": "Kecamatan", "LATITUDE": -7.84935, "LONGITUDE": 110.35935 }, "geometry": { "type": "Point", "coordinates": [ 110.35935, -7.84935 ] } },
+{ "type": "Feature", "properties": { "NAMA": "Kantor Kecamatan Imogiri", "KATEGORI": "Kecamatan", "LATITUDE": -7.92086, "LONGITUDE": 110.38137 }, "geometry": { "type": "Point", "coordinates": [ 110.38137, -7.92086 ] } },
+{ "type": "Feature", "properties": { "NAMA": "Badan Pusat Statistik Kabupaten Bantul", "KATEGORI": "Kependudukan", "LATITUDE": -7.88983, "LONGITUDE": 110.32428 }, "geometry": { "type": "Point", "coordinates": [ 110.32428, -7.88983 ] } },
+{ "type": "Feature", "properties": { "NAMA": "Kantor Kecamatan Pandak", "KATEGORI": "Kecamatan", "LATITUDE": -7.90951, "LONGITUDE": 110.29738 }, "geometry": { "type": "Point", "coordinates": [ 110.29738, -7.90951 ] } }
+]
+}
